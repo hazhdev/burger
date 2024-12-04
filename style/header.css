@@ -8,6 +8,7 @@
 }
 
 .header__nav {
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,6 +42,7 @@
     padding: 15px 30px;
     border-radius: 5px;
 }
+
 
 .header__infa {
     display: flex;
@@ -101,11 +103,29 @@
 }
 
 @media(max-width: 600px) {
+    .header__nav-list {
+        position: absolute;
+        right: 20px;
+        top: 80px;
+        color: black;
+        background-color: var(--color-white);
+        order: 3;
+        flex-direction: column;
+        border-radius: 10px;
+    }
+
+    .burger__close, .burger__menu {
+        display: block;
+    }
+
     .header__nav {
         display: flex;
     }
 
     .header__nav-item {
-        font-size: 0.6rem;
+        font-size: 1rem;
+        color: #000;
+        margin: 0 20px;
+        text-align: center;
     }
 }

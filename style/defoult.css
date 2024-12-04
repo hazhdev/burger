@@ -33,3 +33,8 @@ ul, ol, li {
 a {
     text-decoration: none;
 }
+
+button {
+    background: none;
+    border: none;
+}
