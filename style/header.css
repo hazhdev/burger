@@ -43,6 +43,9 @@
     border-radius: 5px;
 }
 
+.header__burger {
+    display: none;
+}
 
 .header__infa {
     display: flex;
@@ -114,8 +117,9 @@
         border-radius: 10px;
     }
 
-    .burger__close, .burger__menu {
+    .header__burger {
         display: block;
+        margin: 0 10px;
     }
 
     .header__nav {

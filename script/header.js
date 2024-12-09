@@ -16,9 +16,3 @@ buttonClose.addEventListener('click', () => {
     buttonMenu.style.display = 'block';
     buttonClose.style.display = 'none';
 });
-
-if (window.innerWidth > 600) {
-    headerBurger.style.display = 'none'
-} else {
-    headerBurger.style.display = 'block'
-}
